@@ -17,6 +17,7 @@ background-color: lightgrey;
  
 }
 
+/*
 .img1{
 width: 150px;
 height: 150px;
@@ -51,16 +52,18 @@ border: 1px solid;
 margin: 10px;
 }
 
-
+*/
 .bottom{
   height: 64px;
   background-image: url(images/tile.jpg);
+}
+
+p{
+	float:left;
+}
+
 
 }
 
 
 
-article{
-	display: inline;
-
-}
