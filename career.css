@@ -17,53 +17,33 @@ background-color: lightgrey;
  
 }
 
-/*
-.img1{
-width: 150px;
-height: 150px;
-border: 1px solid black;
-margin: 10px;
-}
 
-div.img1{
-	content: url(images/soccer.jpg);
-}
-
-div.img2{
-	content: url(images/guitar.jpg);
-}
-
-div.img3{
-	content: url(images/computer.jpg);
-}
-
-.img2{
-width: 150px;
-height:150px;
-border: 1px solid;
-margin: 10px;
-vertical-align: middle;
-}
-
-.img3{
-width: 150px;
-height: 150px;
-border: 1px solid;
-margin: 10px;
-}
-
-*/
 .bottom{
   height: 64px;
   background-image: url(images/tile.jpg);
 }
 
-p{
+img{
 	float:left;
+	transition:0.4s;
+	-webkit-transition:0.4s;
+	transform: scale(1);
+	-webkit-transform: scale(1);
+}
+
+img:hover{
+		-webkit-transform: (1.5);
+		transform: scale(1.5); 
+}
+
+p{
+
+	font-family: Trebuchet MS;
+	border: 1px solid;
 }
 
 
-}
+
 
 
 

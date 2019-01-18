@@ -1,21 +1,69 @@
-body {
+.wrapper {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	background-color:#2d5986 ;
+	
+}
+
+.gallery{
+
+	position: absolute;
+	right: 0;
+	top: 75px;
+	bottom: 15px;
+	color: white;
+	padding: 0 60px;
+
+}
+
+.gallery .image{
+	float: left;
+	width: 20%;
+	margin:1.5%;
+}
+
+.image img{
+	width: 100%;
+	transition:0.4s;
+	-webkit-transition:0.4s;
+	transform: scale(1);
+	-webkit-transform: scale(1);
+
+}
+
+.image img:hover{
+
+	-webkit-transform: (1.5) ;
+	-ms-transform: ;
+	-o-transform: ;
+	transform: scale(1.5); ;
+}
+
+h2{
+padding-top: 300px;
+margin-left: 30px;
+font-size: 50px;
+font-family: BrushScript, cursive;
+-webkit-transform: rotate(-10deg);
+
+}
+
+
+
+
+
+/*body {
 	margin: 40px;
 	background-color: lightgrey;
 	padding: 20px;
 	font-family: Arial;
-}
+}*/
 
-.wrapper {
-	height: 100vh;
-	display: grid;
-	grid-template-columns: 100px 100px 100px;
-	grid-gap: 10px;
-	background-color: #fff;
-	color: #444;
-}
+
 
 /* Center website */
-.main {
+/*.main {
 	max-width: 1000px;
 	margin: auto;
 }
@@ -31,43 +79,42 @@ h2 {
 }
 
 /* Add padding BETWEEN each column */
-.row,
+/*.row,
 .row>.column {
 	padding: 10px;
 }
 
 /* Create four equal columns that floats next to each other */
-.column {
+/*.column {
 	float: left;
 	width: 30%;
 }
 
 /* Clear floats after rows */
-.row:after {
+/*.row:after {
 	content: "";
 	display: table;
 	clear: both;
 }
 
 /* Content */
-.content {
+/*.content {
 	background-color: white;
 	padding: 10px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
+/*@media screen and (max-width: 900px) {
 	.column {
 		width: 50%;
 	}
-}
+}*/
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-	.column {
+	/*.column {
 		width: 100%;
 	}
-}
+}*/
 
 .top{
 	height: 80px;
@@ -79,7 +126,7 @@ h2 {
 	background-image: url(images/tile.jpg);
 }
 
-/.zoom {
+/*.zoom {
   padding: 50px;
   
   transition: transform .2s;
@@ -90,8 +137,8 @@ h2 {
 
 .zoom:hover {
   -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.5); 
+ /* -webkit-transform: scale(1.5); /* Safari 3-8 */
+  /*transform: scale(1.5); */
 }
 
 
