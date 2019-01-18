@@ -5,7 +5,7 @@ html {
 
 body {
 	background-color: #FFF;
-	font-family: 'Lato', sans-serif;
+	font-family: Trebuchet MS, sans-serif;
 	margin: 1em auto;
 	max-width: 50em;
 	height: 52.625em;
@@ -28,7 +28,7 @@ body {
 #section-left {
 	width: 35%;
 	float: left;
-	height: 750px;
+	height: 770px;
 	background-color: #336699;
 	color: #fff;
 	text-align: center;
@@ -121,6 +121,7 @@ a:active {
 }
 
 h2 {
+	font-family: 
 	text-transform: uppercase;
 	font-size: 1em;
 }
