@@ -49,6 +49,16 @@ font-family: BrushScript, cursive;
 
 }
 
+.top{
+	height: 80px;
+	background-image: url(images/tile.jpg);
+}
+
+.bottom{
+	height: 80px;
+	background-image: url(images/tile.jpg);
+}
+
 
 
 
@@ -116,15 +126,7 @@ h2 {
 	}
 }*/
 
-.top{
-	height: 80px;
-	background-image: url(images/tile.jpg);
-}
 
-.bottom{
-	height: 80px;
-	background-image: url(images/tile.jpg);
-}
 
 /*.zoom {
   padding: 50px;
@@ -156,18 +158,3 @@ h2 {
 }
 
 
-.top {
-	height: 64px;
-	background-image: url(images/tile.jpg);
-}
-
-.middle {
-	flex: 8;
-
-
-}
-
-.bottom {
-	height: 64px;
-	background-image: url(images/tile.jpg);
-}*/

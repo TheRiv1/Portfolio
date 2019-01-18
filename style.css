@@ -21,14 +21,6 @@
 	border-style: solid;
 	background-color: #ff0000;
 	justify-content: center;
-
-	
-	/*display: flex;
-	grid-column: 1/6
-	grid-row: 2/3;
-	background-color:#660033;
-	flex-direction: row;*/
-
 }
 
 /* */
@@ -41,7 +33,7 @@
 }
 
 .img1{
-  	width: 200px;
+  width: 200px;
 	height: 200px;
 	border: 1px solid black;
  
@@ -135,4 +127,4 @@ div.img4{
   transform: rotateY(180deg);
 }
 
-/*dodgerblue*/
+/* color => dodgerblue*/
